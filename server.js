@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 // set paths to the public folder
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '/Develop/public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 require('./routes/api')(app);
 require('./routes/html')(app);

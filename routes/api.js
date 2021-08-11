@@ -29,7 +29,7 @@ module.exports = (app) => {
 
 	});
 
-	//Bonus
+	//  delete note from app
 	app.delete('/api/notes/:id', (req, res) => {
 
 		fs.readFile("./db/db.json", "utf8", (err, data) => {
