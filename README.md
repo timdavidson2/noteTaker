@@ -2,7 +2,17 @@
 
 # Description
 
--THe app is for the user to add notes to the list provided for retrieval later. 
+The app is for the user to add notes to the list provided for retrieval later. 
+
+## Installation
+
+There is no special installation instructions for this applicaiton. 
+
+## Usage
+
+Enter note title and then note underneath. 
+Note will be saved to the left. 
+To delete note click the trashcan icon to the right of the note on the left. 
 
 ## Mock-Up
 
