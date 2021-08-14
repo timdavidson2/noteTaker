@@ -11,8 +11,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
-require("./routes/apiroutes")(app);
-require("./routes/htmlroutes")(app);
+require("./routes/notes")(app);
+require("./routes/html")(app);
 
 // set port to listen for requests
 app.listen(PORT, () => {
