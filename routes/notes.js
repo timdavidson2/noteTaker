@@ -18,7 +18,7 @@ module.exports = (app) => {
     fs.readFile("./db/db.json", "utf8", (err, data) => {
       if (err) throw err;
       let notes = JSON.parse(data);
-      //Using UUID package to apply the unique ID
+      
       note.id = uuid.v4();
       notes.push(note);
       fs.writeFile(
